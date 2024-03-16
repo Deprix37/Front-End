@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Çalışması</title>
+</head>
+<body>
+    <form >
+        <label for="fname">Adınız:</label><br>
+        <input type="text" id="fname" name="fname" required> <br>
+        <label for="Sname">Soyadınız:</label><br>
+        <input type="text" id="Sname" name="Sname" required><br>
+        <label for="eposta">E-posta:</label><br>
+        <input type="eposta" placeholder="örnek@gmail.com" id="eposta" name="eposta" required><br>
+        <label for="pass">Parola:</label><br>
+        <input type="password" id="pass" name="pass" required><br>
+        <label for="date">Doğum Tarihi:</label><br>
+        <input type="date" id="datee" name="datee" required> <br>
+        <label for="gender">Cinsiyet:</label><br>
+        Erkek<input type="radio" name="Cinsiyet" value="Erkek" checked> <br>
+        Kadın<input type="radio" name="Cinsiyet"> <br>
+        <label for="picture">Fotoğraf:</label> 
+        <input type="file" id="picture" name="picture"> <br>
+        <br> 
+        <label for="meyve">Favori Meyveleriniz:</label> 
+        <select>
+            
+            <option>Muz</option>
+            <option>Elma</option>
+            <option>Çilek</option>
+            <option>Şeftali</option>
+            <option>Karpuz</option>
+        </select> <br>
+        <textarea name="mesaj" id="mesaj" cols="30" rows="7"></textarea><br>
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">Şartları kabul ediyorum.</label><br>
+        <input type="submit" >
+        <input type="reset">
+    </form>
+</body>
+</html>
