@@ -1,0 +1,22 @@
+.text-green{
+    color:green;
+}
+
+.fs-small{
+    font-size: 14px;
+    color: green;
+}
+
+.fs-medium{
+    font-size: 20px;
+}
+
+.fs-large{
+    font-size: 40px;
+    color: green;
+    text-decoration: underline;
+}
+
+.bg-color-black{
+    background-color: black;
+}
