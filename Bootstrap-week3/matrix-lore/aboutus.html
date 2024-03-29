@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Video Arka Planı</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        overflow: hidden; /* Sayfa dışına taşan kısmı gizler */
+    }
+
+    video {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Gerekirse, içeriği ortalamak için diğer stiller buraya eklenebilir */
+</style>
+</head>
+<body>
+
+    <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Anasayfa</a></li>
+        </ul>
+      </nav>
+
+<video autoplay loop muted>
+    <source src="css/video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+<!-- Diğer içerikler buraya gelebilir -->
+
+</body>
+</html>
