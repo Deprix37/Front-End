@@ -1,0 +1,13 @@
+.product-list {
+  width: 100%;
+  background-color: #f3f3f3;
+  border: 1px solid #f3f3f3;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.product-image {
+  width: 210px; /* Masaüstü görüntüler tam genişlik */
+  height: 210px;
+}
